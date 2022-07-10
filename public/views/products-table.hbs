@@ -1,0 +1,27 @@
+
+<div class="container-listaProductos">
+    <h3>Lista de Productos</h3>
+    {{#if products.length}}
+    <table>
+        <tr>
+            <th>Nombre <hr> </th>
+            <hr>
+            <th>Precio <hr></th>
+            
+            <th>Foto <hr></th>
+        </tr>
+        {{#each products}}
+        <tr>
+            <td>{{this.title}}</td>
+            
+            <td>${{this.price}}</td>
+            <td><img width="48" src={{this.thumbnail}} alt="image"></td>
+        </tr>
+        {{/each}}
+    </table>
+    {{else}}
+    <div>
+        No hay productos
+    </div>
+    {{/if}}
+</div>
