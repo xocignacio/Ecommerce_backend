@@ -28,4 +28,4 @@ npm init -y && npm install express socket.io => Proyecto con node, express y soc
 - '/api/carrito'
 
 ## Server 
-- [Server ](http://localhost:8080) 
+- [Server ](http://localhost:8080) src/index.js
