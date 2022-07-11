@@ -1,29 +1,42 @@
 [
   {
-    "title": "ipa",
-    "price": "250",
-    "descripcion": " ibu 40",
-    "thumbnail": "www..dfdfdf",
-    "codigo": "001",
-    "stock": "",
-    "id": 1
+    "nombre": "Cerveza ipa",
+    "descripcion": "ibu fuerte",
+    "codigo": "0000001",
+    "foto": "urlsssssss",
+    "precio": 400,
+    "stock": 20,
+    "id": 1,
+    "timestamp": "10/7/2022 22:56:10"
   },
   {
-    "title": "",
-    "price": "",
-    "thumbnail": "",
-    "id": 2
+    "nombre": "Cerveza red",
+    "descripcion": "ibu intermedio",
+    "codigo": "0000002",
+    "foto": "urlsssssss",
+    "precio": 350,
+    "stock": 20,
+    "id": 2,
+    "timestamp": "10/7/2022 22:56:10"
   },
   {
-    "title": "",
-    "price": "",
-    "thumbnail": "",
-    "id": 3
+    "nombre": "Cerveza black",
+    "descripcion": "sabor tostado",
+    "codigo": "0000003",
+    "foto": "urlsssssss",
+    "precio": 400,
+    "stock": 20,
+    "id": 3,
+    "timestamp": "10/7/2022 22:56:10"
   },
   {
-    "title": "red",
-    "price": "150",
-    "thumbnail": "www..dfdfdf",
-    "id": 4
+    "nombre": "Cerveza doble ipa",
+    "descripcion": "ibu elevado",
+    "codigo": "0000004",
+    "foto": "urlsssssss",
+    "precio": 400,
+    "stock": 20,
+    "id": 4,
+    "timestamp": "10/7/2022 22:56:10"
   }
 ]
