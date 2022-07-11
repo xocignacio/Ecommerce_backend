@@ -4,6 +4,15 @@ import { Server as IOServer } from "socket.io";
 import { MemoryContainer, FilesystemContainer } from "./api/index.js";
 import { DATE_UTILS } from "./utils/index.js";
 
+import { productRouter } from "./routers/productRouter.js";
+import { CarritoRouter } from "./routers/carritoRouter.js";
+
+/* app.use(express.json());                           
+app.use(express.urlencoded({ extended: true }));   */
+
+ 
+
+
 const MessagesApi = new MemoryContainer();
 const ProductsApi = new FilesystemContainer("products");
 
@@ -11,7 +20,8 @@ const app = express();
 const httpServer = new HttpServer(app);
 const io = new IOServer(httpServer);
 
-const PORT = 8080;
+app.use("/api/productos", productRouter );     
+app.use("/api/carrito", CarritoRouter );   
 
 app.use(express.static("public"));
 
@@ -36,8 +46,9 @@ io.on("connection", async (socket) => {
   });
 });
 
+const PORT = 8080;
 const server = httpServer.listen(PORT, () => {
-  console.log(`Servidor escuchando en puerto ${PORT}`);
+  console.log(`Servidor escuchando en puerto ${PORT} Bienvenido`);
 });
 server.on("error", (error) => {
   console.error(`Error en el servidor ${error}`);

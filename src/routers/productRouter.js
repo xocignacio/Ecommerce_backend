@@ -2,10 +2,10 @@
 /// probar las rutas http://localhost:8080/api/productos  (thunder client o postman) con sus respectivos metodos
 import { Router } from "express";     
 
-import { ContainerMemory } from "../Api/MemoryContainer.js"; // type module  o // const Container = require('../Api/Container.js')  // common js
+import { MemoryContainer  } from "../api/MemoryContainer.js"; // type module  o // const Container = require('../Api/Container.js')  // common js
 
 const productRouter = Router();     //// creo una instancia del router // declaro todas las rutas 
-const ProductApi = new ContainerMemory();   //// creo una instancia del container
+const ProductApi = new MemoryContainer ();   //// creo una instancia del container
 
 // /api/productos/
 productRouter.get("/", (req, res) => {               ///// devuelvo todos los productos

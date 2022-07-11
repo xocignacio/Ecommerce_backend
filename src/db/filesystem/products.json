@@ -2,7 +2,10 @@
   {
     "title": "ipa",
     "price": "250",
+    "descripcion": " ibu 40",
     "thumbnail": "www..dfdfdf",
+    "codigo": "001",
+    "stock": "",
     "id": 1
   },
   {
@@ -16,5 +19,11 @@
     "price": "",
     "thumbnail": "",
     "id": 3
+  },
+  {
+    "title": "red",
+    "price": "150",
+    "thumbnail": "www..dfdfdf",
+    "id": 4
   }
 ]
