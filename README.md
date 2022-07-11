@@ -27,5 +27,11 @@ npm init -y && npm install express socket.io => Proyecto con node, express y soc
 - El router base '/api/productos'
 - '/api/carrito'
 
+## Funcionalidad
+- public :  - js/main funcionalidad socket, render tabla de products hbs , funcion agregar item a la lista de productos
+            - index.html , style para estilado y views para renderizar tabla con hbs
+- src : index.js => server, express static, subrutas, socket
+  
+
 ## Server 
 - [Server ](http://localhost:8080) src/index.js
