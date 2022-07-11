@@ -2,13 +2,12 @@
 ## Primer entrega 
 
 
-
 Este proyecto es un ecommerce trabajado especialmente desde el backend
 
 ## Conceptos
 - Utiliza api resful 
--motores de plantilla
--web Socket
+- motores de plantilla
+- web Socket
 
 
 
@@ -22,7 +21,7 @@ npm init -y && npm install express socket.io => Proyecto con node, express y soc
 
 ```
 ## Framework
--  [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) 
+-  [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
 
 ## Endpoints
 - El router base '/api/productos'
